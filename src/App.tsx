@@ -3,54 +3,18 @@ import './App.css'
 function App() {
   return (
     <>
-      <div className="header">
-        <div className="header-top-border">
-          <a href="#" className="top-link"><span className="top-link-first-char">h</span>ome</a>
-          <a href="#" className="top-link"><span className="top-link-first-char">a</span>bout</a>
-        </div>
-        <div className="header-content">
-          <span>&gt; Lorem Ipsum</span>
-        </div>
+      <div className="grid grid-cols-4 font-mono text-center text-xl bg-slate-950 text-green-500">
+        <div>home</div>
+        <div>about</div>
+        <div>projects</div>
+        <div>resume</div>
+        <div className="col-span-4 text-5xl">&gt; John Paul Jepko</div>
       </div>
-
-      <div className="content">
+      
+      <div className="text-white">
         { /* placeholder to test floating hdr */ }
         <h1>Header</h1>
         <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <h1>Header</h1>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <h1>Header</h1>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <h1>Header</h1>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
-        <p>Paragraph</p>
-        <p>Bruh</p>
       </div>
     </>
   )
