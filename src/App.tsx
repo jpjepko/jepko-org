@@ -24,7 +24,7 @@ function App() {
         <div id="skills" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
           <h1 className="text-center text-4xl text-green-500">Skills</h1>
           <p>Welcome to my skills!</p>
-          <div className="grid auto-cols-max grid-flow-col">
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(7rem,1fr))] ">
             <div className="box-content size-32">
               <span className="icon-[vscode-icons--file-type-python] text-6xl"></span>
               <p>Python</p>
