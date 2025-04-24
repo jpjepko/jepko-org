@@ -12,35 +12,42 @@ function App() {
         </nav>
         <h1 className="col-span-4 text-6xl pt-4">&gt; John Paul Jepko</h1>
       </header>
-
       <main>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white mx-15 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
-          <p>This is a paragraph</p>
+        <div id="home" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">Home</h1>
+          <p>Welcome to my portfolio!</p>
         </div>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
+        <div id="about" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">About</h1>
+          <p>This is a paragraph about me.</p>
         </div>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
+        <div id="projects" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">Projects</h1>
+          <p>Details about my projects.</p>
         </div>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
+        <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">Resumé</h1>
+          <p>Details about my resumé.</p>
         </div>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
+        <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">Resumé</h1>
+          <p>Details about my resumé.</p>
         </div>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
+        <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">Resumé</h1>
+          <p>Details about my resumé.</p>
         </div>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
+        <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">Resumé</h1>
+          <p>Details about my resumé.</p>
         </div>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
+        <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">Resumé</h1>
+          <p>Details about my resumé.</p>
         </div>
-        <div className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
-          <h1 id="about" className="text-center text-4xl text-green-500">About</h1>
+        <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
+          <h1 className="text-center text-4xl text-green-500">Resumé</h1>
+          <p>Details about my resumé.</p>
         </div>
       </main>
     </>
