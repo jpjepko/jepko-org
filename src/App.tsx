@@ -24,6 +24,36 @@ function App() {
         <div id="skills" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
           <h1 className="text-center text-4xl text-green-500">Skills</h1>
           <p>Welcome to my skills!</p>
+          <div className="grid auto-cols-max grid-flow-col">
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-python] text-6xl"></span>
+              <p>Python</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-c] text-6xl"></span>
+              <p>C</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-cpp2] text-6xl"></span>
+              <p>C++</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-go-gopher] text-6xl"></span>
+              <p>Go</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-reactjs] text-6xl"></span>
+              <p>React</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-cuda] text-6xl"></span>
+              <p>CUDA</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-protobuf] text-6xl"></span>
+              <p>Protobuf</p>
+            </div>
+          </div>
         </div>
         <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
           <h1 className="text-center text-4xl text-green-500">Resumé</h1>
