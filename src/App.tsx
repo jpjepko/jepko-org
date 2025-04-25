@@ -1,6 +1,30 @@
+import { useEffect } from 'react';
 import './App.css'
 
 function App() {
+  // keyboard nav
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      const sections: { [key: string]: string } = {
+        'a': "about",
+        'p': "projects",
+        's': "skills",
+        'r': "resume",
+      };
+
+      const sectionId = sections[event.key.toLowerCase()];
+      if (sectionId) {
+        const elt = document.getElementById(sectionId);
+        if (elt) {
+          elt.scrollIntoView({});
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, []);
+
   return (
     <>
       <header className="font-mono text-center text-xl bg-slate-950 text-green-500 p-2 border border-green-500 rounded-md sticky top-0">
