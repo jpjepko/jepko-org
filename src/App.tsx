@@ -47,7 +47,6 @@ function App() {
         </div>
         <div id="skills" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
           <h1 className="text-center text-4xl text-green-500">Skills</h1>
-          <p>Welcome to my skills!</p>
           <div className="grid grid-cols-[repeat(auto-fill,minmax(7rem,1fr))] ">
             <div className="box-content size-32">
               <span className="icon-[vscode-icons--file-type-python] text-6xl"></span>
@@ -66,6 +65,10 @@ function App() {
               <p>Go</p>
             </div>
             <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-js] text-6xl"></span>
+              <p>JavaScript</p>
+            </div>
+            <div className="box-content size-32">
               <span className="icon-[vscode-icons--file-type-reactjs] text-6xl"></span>
               <p>React</p>
             </div>
@@ -77,11 +80,42 @@ function App() {
               <span className="icon-[vscode-icons--file-type-protobuf] text-6xl"></span>
               <p>Protobuf</p>
             </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-docker] text-6xl"></span>
+              <p>Docker</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[file-icons--llvm] text-6xl"></span>
+              <p>LLVM</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-sql] text-6xl"></span>
+              <p>SQL</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-jupyter] text-6xl"></span>
+              <p>Jupyter</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-rust] text-6xl"></span>
+              <p>Rust</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-ocaml] text-6xl"></span>
+              <p>OCaml</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[devicon--linux] text-6xl"></span>
+              <p>Linux</p>
+            </div>
+            <div className="box-content size-32">
+              <span className="icon-[vscode-icons--file-type-shell] text-6xl"></span>
+              <p>Bash</p>
+            </div>
           </div>
         </div>
         <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
           <h1 className="text-center text-4xl text-green-500">Resumé</h1>
-          <p>Details about my resumé.</p>
         </div>
       </main>
     </>
