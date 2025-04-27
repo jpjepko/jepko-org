@@ -116,6 +116,9 @@ function App() {
         </div>
         <div id="resume" className="font-mono text-center text-xl bg-slate-950 text-white m-3 p-2 border border-green-500 rounded-md">
           <h1 className="text-center text-4xl text-green-500">Resumé</h1>
+          <a href="/jepko.resume.pdf">
+          <button type="button" className="focus:outline-none text-white bg-green-500 hover:bg-green-600 rounded-lg text-2xl px-5 py-2.5 my-2">View Resumé</button>
+          </a>
         </div>
       </main>
     </>
